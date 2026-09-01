@@ -3,6 +3,8 @@ Ein schlankes PowerShell-GUI-Tool, mit dem Benutzer ihr eigenes Active-Directory
 
 A lightweight PowerShell GUI tool that lets users change their own Active Directory password (self-service) – runs in the user context, no admin rights required.
 
+<img width="426" height="438" alt="image" src="https://github.com/user-attachments/assets/b0a37ea1-4a66-4a08-8f81-eec76bced099" />
+
 ## Funktionen / Features
 
 - ✅ Lässt sich unter Citrix als published App verteilen / Works as Citrix published App
