@@ -33,11 +33,11 @@ Mit dem Open-Source-Modul [ps2exe](https://github.com/MScholtes/PS2EXE):
 ```powershell
 Install-Module -Name ps2exe -Scope CurrentUser
 
-Invoke-ps2exe -inputFile ".\AD-Kennwort-Aendern.ps1" `
-              -outputFile ".\AD-Kennwort-Aendern.exe" `
+Invoke-ps2exe -inputFile ".\AD-Password-Changer.ps1" `
+              -outputFile ".\AD-Password-Changer.exe" `
               -noConsole `
-              -title "AD Kennwort aendern" `
-              -product "AD Kennwort aendern" `
+              -title "AD Password Changer" `
+              -product "AD Password Changer" `
               -version "1.0.0.0" `
               -requireAdmin:$false
 ```
