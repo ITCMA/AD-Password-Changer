@@ -1,15 +1,17 @@
 # AD-Password-Changer
 Ein schlankes PowerShell-GUI-Tool, mit dem Benutzer ihr eigenes Active-Directory-Kennwort selbst ändern können (Self-Service) – läuft im Benutzerkontext, ohne Admin-Rechte.
+
 A lightweight PowerShell GUI tool that lets users change their own Active Directory password (self-service) – runs in the user context, no admin rights required.
 
 ## Funktionen / Features
 
+- ✅ Lässt sich unter Citrix als published App verteilen / Works as Citrix published App
 - 🔐 Ändert das eigene AD-Kennwort über `UserPrincipal.ChangePassword()` — erfordert zwingend das alte Kennwort (kein administratives Reset)
 - 🕒 Zeigt Datum und Alter des aktuellen Kennworts an
-- ✅ Client-seitige Vorabprüfung der Komplexität (Länge, Groß-/Kleinschreibung, Ziffer, Sonderzeichen)
 - 🌍 Automatische Sprachumschaltung Deutsch/Englisch anhand des Windows-Standorts
 - 👤 Läuft vollständig im Kontext des angemeldeten Benutzers
 - 🖥️ Reine GUI (Windows Forms), kein Konsolenfenster bei Verwendung als EXE
+- ✅ Client-seitige Vorabprüfung der Komplexität (Länge, Groß-/Kleinschreibung, Ziffer, Sonderzeichen)
 
 - ## Voraussetzungen / Requirements
 
